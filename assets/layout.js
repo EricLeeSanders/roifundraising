@@ -20,24 +20,6 @@ var Layout = function () {
         }
     }
 
-    /* Change the background color when the section is scrolled into view */
-    var handleBackgroundColor = function(){ 
-        var scrollPosition = $(this).scrollTop();
-        var headerHeight = $(".header").outerHeight(true);
-        var scrollOffset = $(window).height() / 4;
-
-        $('#header nav a[href^="#"]').each(function() {
-            var thisHref = $($(this).attr('href'));
-            var thisHrefTopPosition = $(thisHref).offset().top;
-            var thisPosition = thisHrefTopPosition - headerHeight - scrollOffset;
-
-            if (scrollPosition >= thisPosition) {
-                $('.selectedNavItem').removeClass('selectedNavItem');
-                $(this).addClass('selectedNavItem');
-            }
-        });
-    }
-
     // Handle Header
     var handleOnePageHeader = function() {
         // jQuery to collapse the navbar on scroll

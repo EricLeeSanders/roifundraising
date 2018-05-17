@@ -36,7 +36,7 @@ a {
 
 a:focus, a:hover, a:active {
   outline: 0;
-  color: #999caa;
+  color: #41d6c3;
   text-decoration: none;
 }
 
@@ -223,7 +223,7 @@ fieldset[disabled] .btn-theme {
   border-color: #fff;
 }
 
-.btn-default-bg {
+.btn-default-bg, .btn-danger-bg{
   color: #515769;
   background: #f3f4f5;
   border-color: transparent;
@@ -233,6 +233,12 @@ fieldset[disabled] .btn-theme {
 .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
   color: #fff;
   background: #41d6c3;
+  border-color: transparent;
+}
+
+.btn-danger-bg:hover, .btn-danger-bg:focus, .btn-danger-bg.focus {
+  color: #fff;
+  background: #d9534f;
   border-color: transparent;
 }
 
