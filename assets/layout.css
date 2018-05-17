@@ -36,7 +36,7 @@ a {
 
 a:focus, a:hover, a:active {
   outline: 0;
-  color: #41d6c3;
+  color: #3d70b2;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ a:focus, a:hover, a:active {
   right: -15px;
   width: 9px;
   height: 2px;
-  background: #41d6c3;
+  background: #3d70b2;
   content: " ";
 }
 
@@ -100,19 +100,19 @@ h3 {
 
 ::selection {
   color: #fff;
-  background: #41d6c3;
+  background: #3d70b2;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #41d6c3;
+  background: #3d70b2;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #41d6c3;
+  background: #3d70b2;
   text-shadow: none;
 }
 
@@ -142,8 +142,8 @@ h3 {
   	[Button]
 ------------------------------------------------------------------*/
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited , .btn-primary:focus, .btn-primary:active:focus{
-	background-color:#41d6c3;
-	border-color:#41d6c3;
+	background-color:#3d70b2;
+	border-color:#3d70b2;
 }
 
 .btn-theme {
@@ -206,7 +206,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-white-bg:hover, .btn-white-bg:focus, .btn-white-bg.focus {
   color: #fff;
-  background: #41d6c3;
+  background: #3d70b2;
   border-color: transparent;
 }
 
@@ -232,7 +232,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
   color: #fff;
-  background: #41d6c3;
+  background: #3d70b2;
   border-color: transparent;
 }
 
@@ -437,7 +437,7 @@ textarea{
 .testimonial-content .testimonial-icon{
     width: 50px;
     height: 45px;
-    background: #41d6c3;
+    background: #3d70b2;
     text-align: center;
     font-size: 22px;
     color: #fff;
@@ -448,7 +448,7 @@ textarea{
 }
 .testimonial-content .testimonial-icon:before{
     content: "";
-    border-bottom: 16px solid #1a9dad;
+    border-bottom: 16px solid #2c4e79;
     border-left: 18px solid transparent;
     position: absolute;
     top: -16px;
@@ -473,7 +473,7 @@ textarea{
 .testimonial .post{
     display: block;
     font-size: 14px;
-    color: #41d6c3;
+    color: #3d70b2;
 }
 .owl-theme .owl-controls{
     margin-top: 20px;
@@ -485,7 +485,7 @@ textarea{
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-    background: #41d6c3;
+    background: #3d70b2;
 }
 
 /*------------------------------------------------------------------
@@ -622,7 +622,7 @@ textarea{
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-  background: #41d6c3;
+  background: #3d70b2;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -631,7 +631,7 @@ textarea{
 .header .navbar-toggle:hover .toggle-icon:before, .header .navbar-toggle:hover .toggle-icon:after {
   width: 21px;
   height: 1px;
-  background: #41d6c3;
+  background: #3d70b2;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -729,7 +729,7 @@ textarea{
   left: 0;
   width: 9px;
   height: 2px;
-  background: #41d6c3;
+  background: #3d70b2;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -951,7 +951,7 @@ textarea{
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #41d6c3 !important;
+  color: #3d70b2 !important;
 }
 
 .color-white {
@@ -982,7 +982,7 @@ textarea{
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #41d6c3 !important;
+  background: #3d70b2 !important;
 }
 
 .bg-color-white {
